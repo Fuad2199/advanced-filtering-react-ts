@@ -1,10 +1,10 @@
-import './App.css'
+import './App.css';
+import './components/Sidebar';
 
-function App() {
-
+const App = () => {
   return (
-    <div>
-      
+    <div className='flex h-screen'>
+      <Sidebar />
     </div>
   )
 }
